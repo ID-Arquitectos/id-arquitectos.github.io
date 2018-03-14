@@ -13,7 +13,7 @@ theme = "creative"
             
         [params.hero]
     		    slogan     = "Arquitectura Creativa"
-          	#buttonText = "Conoce más"
+          	buttonText = "Conoce más"
 
 	      [params.navigation.links]
       			about     = "About"
