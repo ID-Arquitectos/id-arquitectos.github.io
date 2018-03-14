@@ -1,8 +1,101 @@
 baseurl = "http://replace-this-with-your-hugo-site.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "id&arq, arquitectura creativa"
 theme = "creative"
 [params]
   	name = "Nombre"
 	description = "Descripción"
 	favicon = "favicon.ico"
+  	
+      	[params.navigation]
+      		  brand = "Idea Arquitectos"
+         		color = "#765B56"
+            
+        [params.hero]
+    		    slogan     = "Arquitectura Creativa"
+          	#buttonText = "Conoce más"
+
+	      [params.navigation.links]
+      			about     = "About"
+      			services  = "Servicios"
+      			portfolio = "Conócenos"
+      			location  = "Mapa"
+      			contact   = "Contácto"
+        
+        [params.about]
+    		    headline    = "Somos una firma de arquitectos especializada en diseño de espacios corporativos, construcción y administración."
+    		    description = "Firma de arquitectos empresa con la más alta calidad."
+            
+        [params.services]
+            headline = "A tu servicio"
+            description = "Nuestro compromiso es construir y diseñar espacios acorde de los estándares de su empresa con la más alta calidad."
+            
+            [[params.services.list]]
+              title = "Corportativa"
+              description = "Creación de espacios de trabajo."
+
+            [[params.services.list]]
+        			title = "Retail"
+        			description = "Soluciones para el ramo comercial."
+
+        		[[params.services.list]]
+              title = "Residencial"
+              description = "Espacios de vivienda."
+              
+          [params.portfolio.modal1]
+              client = "Diebol"
+              date = "2017"
+              category = "Category"
+              buttonText = "Close"
+              
+              [params.portfolio.modal2]
+                  client = "Genomma Lab"
+                  date = "2011"
+                  category = "Category"
+                  buttonText = "Close"
+                  
+                  [params.portfolio.modal3]
+                      client = "Client"
+                      date = "Date"
+                      category = "Category"
+                      buttonText = "Close"
+                      
+                      [params.portfolio.modal4]
+                          client = "Client"
+                          date = "Date"
+                          category = "Category"
+                          buttonText = "Close"
+                          
+                          [params.portfolio.modal5]
+                              client = "Client"
+                              date = "Date"
+                              category = "Category"
+                              buttonText = "Close"
+                              
+                              [params.portfolio.modal6]
+                                  client = "Client"
+                                  date = "Date"
+                                  category = "Category"
+                                  buttonText = "Close"
+          [params.contact]
+          		headline = "Contáctanos"
+          		description = "Queremos darte el mejor servicio"
+              
+              [[params.contact.list]]
+                  name = "Ricardo Franco Arredondo"
+                  post = "Gerente de Nuevos Negocios"
+                  email = "ricfranco@idearquitectos.com.mx"
+              		phone = "01 (55) 6729 9790 "
+              	  street = "Tintoreto 92 - 301, Col. Cd. de los Deportes 03710 Ciudad de México"
+                  
+              [[params.contact.list]]
+                  name = "Raúl Franco Arredondo"
+                  post = "Director General"
+                  email = "rfranco@idearquitectos.com.mx"
+              		phone = "01 (55) 6729 9790 "
+              	  street = "Tintoreto 92 - 301, Col. Cd. de los Deportes 03710 Ciudad de México"
+                  
+          [params.location]
+              latitude  = "19°23'01.1N"
+              ongitude = "99°10'56.6W"
+              #maps_api_key = "AIzaSyDt3pqhy9DPIvAadw9oF4Ve2nGi-cwcfsU"
