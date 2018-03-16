@@ -1,11 +1,11 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "https://id-arquitectos.github.io/"
 languageCode = "es-mx"
 title = "id&arq arquitectura creativa"
 theme = "hugo-creative-theme"
 
 [params]
-  name = "Nombre"
-  description = "Descripción"
+  name = "id&arq"
+  description = "Arquitectura Creativa"
   favicon = "favicon.ico"
 
   [params.navigation]
@@ -20,7 +20,7 @@ theme = "hugo-creative-theme"
       contact = "Contacto"
 
   [params.hero]
-    slogan = "Arquitectura Creativa"
+    slogan = "*Arquitectura* Creativa"
     #buttonText = "Conoce más"
     #subtitle= "Firma de arquitectos empresa con la más alta calidad."
 
@@ -71,6 +71,7 @@ theme = "hugo-creative-theme"
       #street = "Tintoreto 92 - 301, Col. Cd. de los Deportes 03710 Ciudad de México"
 
   [params.location]
-      latitude  = "19°23'01.1N"
-      ongitude = "99°10'56.6W"
-      maps_api_key = ""
+    latitude = "19.383505"
+    longitude = "-99.1824065"
+    zoom = 17
+    maps_api_key = "AIzaSyARMu6bLLVyhbPpiO2YSKL3OAhhx_QQ2uU"
