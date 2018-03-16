@@ -1,85 +1,76 @@
 baseurl = "http://replace-this-with-your-hugo-site.com/"
-languageCode = "en-us"
-title = "id&arq, arquitectura creativa"
-theme = "creative"
+languageCode = "es-mx"
+title = "id&arq arquitectura creativa"
+theme = "hugo-creative-theme"
+
 [params]
-  	name = "Nombre"
-	description = "Descripción"
-	favicon = "favicon.ico"
-  
-  
-  	    # Navigation
-      	[params.navigation]
-      		  brand = "Idea Arquitectos"
-         		color = "#765B56"
-                
-	      [params.navigation.links]
-      			about     = "About"
-      			services  = "Servicios"
-      			portfolio = "Conócenos"
-      			location  = "Mapa"
-      			contact   = "Contácto"
-        
-        
-        # Hero section
-        [params.hero]
-        slogan     = "Arquitectura Creativa"
-        #buttonText = "Conoce más"
-        
-        
-        # About section
-        [params.about]
-    		    headline    = "Somos una firma de arquitectos especializada en diseño de espacios corporativos, construcción y administración."
-    		    description = "Firma de arquitectos empresa con la más alta calidad."
-            
-            
-        # Service section
-        [params.services]
-            headline = "A tu servicio"
-            description = "Nuestro compromiso es construir y diseñar espacios acorde de los estándares de su empresa con la más alta calidad."
-            
-            [[params.services.list]]
-              title = "Corportativa"
-              description = "Creación de espacios de trabajo."
+  name = "Nombre"
+  description = "Descripción"
+  favicon = "favicon.ico"
 
-            [[params.services.list]]
-        			title = "Retail"
-        			description = "Soluciones para el ramo comercial."
+  [params.navigation]
+    brand = "id&arq"
+    color = "#765B56"
 
-        		[[params.services.list]]
-              title = "Residencial"
-              description = "Espacios de vivienda."
-              
-              
-          # Portafolio modals
-          [params.portfolio.modal]
-              client = "Client"
-              date = "data  "
-              category = "Category"
-              buttonText = "Close"
-          
-          # Contact section
-          [params.contact]
-          		headline = "Contáctanos"
-          		description = "Queremos darte el mejor servicio"
-              
-              [[params.contact.list]]
-                  name = "Ricardo Franco Arredondo"
-                  post = "Gerente de Nuevos Negocios"
-                  email = "ricfranco@idearquitectos.com.mx"
-                  phone = "01 (55) 6729 9790"
-              	  street = "Tintoreto 92 - 301, Col. Cd. de los Deportes 03710 Ciudad de México"
-                  
-              [[params.contact.list]]
-                  name = "Raúl Franco Arredondo"
-                  post = "Director General"
-                  email = "rfranco@idearquitectos.com.mx"
-              		phone = "01 (55) 6729 9790 "
-              	  street = "Tintoreto 92 - 301, Col. Cd. de los Deportes 03710 Ciudad de México"
-                  
-                  
-          # Location section
-          [params.location]
-              latitude  = "19°23'01.1N"
-              ongitude = "99°10'56.6W"
-              maps_api_key = ""
+    [params.navigation.links]
+      about = "About"
+      services = "Servicios"
+      portfolio = "Conócenos"
+      location = "Mapa"
+      contact = "Contacto"
+
+  [params.hero]
+    slogan = "Arquitectura Creativa"
+    #buttonText = "Conoce más"
+    #subtitle= "Firma de arquitectos empresa con la más alta calidad."
+
+  [params.about]
+    headline    = "Somos una firma de arquitectos especializada en diseño de espacios corporativos, construcción y administración."
+    #description = "Firma de arquitectos empresa con la más alta calidad."
+
+  [params.services]
+    headline = "A tu servicio"
+    description = "Nuestro compromiso es construir y diseñar espacios acorde de los estándares de su empresa con la más alta calidad."
+
+    [[params.services.list]]
+      icon = "fa-black-tie"
+      title = "Corportativa"
+      description = "Creación de espacios de trabajo."
+
+    [[params.services.list]]
+      icon = "fa-cart-plus"
+      title = "Retail"
+      description = "Soluciones para el ramo comercial."
+
+    [[params.services.list]]
+      icon = "fa-home"
+      title = "Residencial"
+      description = "Espacios de vivienda."
+
+  [params.portfolio.modal]
+    client = "Client"
+    date = "Date"
+    category = "Category"
+    buttonText = "Close"
+
+  [params.contact]
+    headline = "Contáctanos"
+    description = "Queremos darte el mejor servicio"
+    name = "Ricardo Franco Arredondo"
+    position = "Gerente de Nuevos Negocios"
+    email = "ricfranco@idearquitectos.com.mx"
+    phone = "01 (55) 6729 9790"
+    phone_clean = "015567299790"
+    street = "Tintoreto 92 - 301, Col. Cd. de los Deportes 03710 Ciudad de México"
+
+    #[[params.contact.list]]
+      #name = "Raúl Franco Arredondo"
+      #post = "Director General"
+      #email = "rfranco@idearquitectos.com.mx"
+      #phone = "01 (55) 6729 9790 "
+      #street = "Tintoreto 92 - 301, Col. Cd. de los Deportes 03710 Ciudad de México"
+
+  [params.location]
+      latitude  = "19°23'01.1N"
+      ongitude = "99°10'56.6W"
+      maps_api_key = ""
