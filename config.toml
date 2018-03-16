@@ -13,7 +13,7 @@ theme = "hugo-creative-theme"
     color = "#765B56"
 
     [params.navigation.links]
-      about = "About"
+      about = "Acerca de"
       services = "Servicios"
       portfolio = "Conócenos"
       location = "Mapa"
@@ -48,27 +48,29 @@ theme = "hugo-creative-theme"
       description = "Espacios de vivienda."
 
   [params.portfolio.modal]
-    client = "Client"
-    date = "Date"
-    category = "Category"
-    buttonText = "Close"
+    client = "Cliente"
+    date = "Fecha"
+    category = "Categoría"
+    buttonText = "Cerrar"
 
   [params.contact]
-    headline = "Contáctanos"
-    description = "Queremos darte el mejor servicio"
-    name = "Ricardo Franco Arredondo"
-    position = "Gerente de Nuevos Negocios"
-    email = "ricfranco@idearquitectos.com.mx"
-    phone = "01 (55) 6729 9790"
-    phone_clean = "015567299790"
+    #headline = "Contáctanos"
+    #description = "Queremos darte el mejor servicio"
     street = "Tintoreto 92 - 301, Col. Cd. de los Deportes 03710 Ciudad de México"
 
-    #[[params.contact.list]]
-      #name = "Raúl Franco Arredondo"
-      #post = "Director General"
-      #email = "rfranco@idearquitectos.com.mx"
-      #phone = "01 (55) 6729 9790 "
-      #street = "Tintoreto 92 - 301, Col. Cd. de los Deportes 03710 Ciudad de México"
+    [[params.contact.list]]
+      name = "Ricardo Franco Arredondo"
+      position = "Gerente de Nuevos Negocios"
+      email = "ricfranco@idearquitectos.com.mx"
+      phone = "01 (55) 6729 9790"
+      phone_clean = "015567299790"
+
+    [[params.contact.list]]
+      name = "Raúl Franco Arredondo"
+      position = "Director General"
+      email = "rfranco@idearquitectos.com.mx"
+      phone = "01 (55) 6729 9790"
+      phone_clean = "015567299790"
 
   [params.location]
     latitude = "19.383505"

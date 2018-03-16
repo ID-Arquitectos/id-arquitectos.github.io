@@ -1,9 +1,9 @@
-modalID: 4
+modalID: gruposcanda
 class: even
 title: Grupo Scanda
-#date: 2014-07-05
-img: 4.jpg
-#client: Start Bootstrap
-#clientLink: "#"
+date: 2014-07-05
+img: grupo-scanda.jpg
+client: Start Bootstrap
+clientLink: "#"
 category: Retail
-#description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit.
+description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit.
