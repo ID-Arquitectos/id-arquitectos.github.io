@@ -1,9 +1,11 @@
 modalID: gruposcanda
 class: even
 title: Grupo Scanda
-#date: 2014-07-05
+date: 2014
 img: grupo-scanda.jpg
-client: Start Bootstrap
-clientLink: "#"
-category: Retail
-description: Se realizó en el año 2014, con una dimensión 1,942 m2, se ubica en Parque Chapultepec.
+#client: Start Bootstrap
+#clientLink: "#"
+#category: Retail
+#description: Se realizó en el año 2014, con una dimensión 1,942 m2, se ubica en Parque Chapultepec.
+surface: 1,942*m*
+location: Parque Chapultepec

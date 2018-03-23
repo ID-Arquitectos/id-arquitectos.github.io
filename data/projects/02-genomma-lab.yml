@@ -1,9 +1,11 @@
 modalID: genomma-lab
 class: even
 title: Genomma Lab
-#date: 2014-07-05
+date: 2011
 img: genomma-lab.jpg
-client: Start Bootstrap
-clientLink: "#"
-category: Retail
-description: Se realizó en el año 2011, con una dimensión 6,000 m2, se ubica en Torre Samara.
+#client: Start Bootstrap
+#clientLink: "#"
+#category: Retail
+#description: Se realizó en el año 2011, con una dimensión 6,000 m2, se ubica en Torre Samara.
+surface: 6,000*m*
+location: Torre Samara

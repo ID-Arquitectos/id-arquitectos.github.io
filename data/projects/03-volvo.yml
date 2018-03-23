@@ -1,9 +1,11 @@
 modalID: volvo
 class: odd
 title: Volvo
-#date: 2014-07-05
+date: 2011
 img: volvo.jpg
-client: Start Bootstrap
-clientLink: "#"
-category: Retail
-description: Se realizó en el año 2011, con una dimensión 4200 m2, se ubica en Torre Zentrum.
+#client: Start Bootstrap
+#clientLink: "#"
+#category: Retail
+#description: Se realizó en el año 2011, con una dimensión 4200 m2, se ubica en Torre Zentrum.
+surface: 4,200*m*
+location: Torre Zentrum

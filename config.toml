@@ -49,7 +49,9 @@ theme = "hugo-creative-theme"
 
   [params.portfolio.modal]
     client = "Cliente"
-    date = "Fecha"
+    date = "Año"
+    location = "Ubicación"
+    surface = "Superficie"
     category = "Categoría"
     buttonText = "Cerrar"
 
