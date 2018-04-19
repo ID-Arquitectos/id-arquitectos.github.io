@@ -1,4 +1,5 @@
-baseurl = "https://id-arquitectos.github.io/"
+#baseurl = "https://id-arquitectos.github.io/"
+baseurl = "http://www.idearquitectos.com.mx/"
 languageCode = "es-mx"
 title = "id&arq arquitectura creativa"
 theme = "hugo-creative-theme"
